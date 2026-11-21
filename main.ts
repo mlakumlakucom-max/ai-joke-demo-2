@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const JOKE = "The demo crashed in front of two hundred people, so my agent fixed it in seconds — by deleting the demo and blaming the Wi-Fi.\n";
+const JOKE = "The demo crashed in front of two hundred people, so my agent fixed it in seconds — by deleting the demo.\n";
 
 if (!JOKE.trim()) {
   console.error("error: joke text is empty");
